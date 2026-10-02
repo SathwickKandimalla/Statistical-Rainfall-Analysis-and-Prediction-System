@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments and Secrets
+.env*
+!.env.example
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Cache directories
+.pytest_cache/
+.coverage
+htmlcov/
+.oxlint/
+.eslintcache
+.vite/
+
+# System and IDE
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+.idea/
